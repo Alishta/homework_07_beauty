@@ -1,0 +1,29 @@
+.block {
+    display: flex;
+    margin: 100px 14.5% 0;
+    background-color: #fff;
+
+    .block__list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        
+        .block__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            padding: 35px 3%;
+            border-bottom: 1px solid #efefef;
+            border-right: 1px solid #efefef;
+
+            .block__img {
+                width: 10vw;
+                min-width: 10vw;
+            }
+        }
+    }
+}
+
+

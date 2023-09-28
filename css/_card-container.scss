@@ -1,0 +1,65 @@
+.card-container {
+    padding: 0 14.5%;
+
+    .card {
+        display: flex;
+        gap: 3%;
+
+        .card-body {
+            display: flex;
+            background-color: $accent-color;
+            padding: 35px 4.3% 35px 4%;
+            
+            .text-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 25px;
+                
+                    .card__title {
+                        color: $main-color;
+                        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+                        font-weight: 700;
+                        font-size: 1.125rem;
+                    }
+                
+                    .card__text {
+                        color: $main-color;
+                        font-size: 0.875rem;
+                    }
+                
+                    .card__input {
+                        border: none;
+                        border-radius: 30px;
+                        padding: 9px 9%;
+                        font-size: .875rem;
+                    }
+
+                }
+                
+                .svg-container {
+                    width: 50%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .svg-container__img {
+                        width: 80%;
+                    }
+
+                    .svg-container__img--mod {
+                        width: 80%;
+                    }
+                }
+
+            .card-btn {
+                background-color: $accent-color;
+                font-size: .875rem;
+
+                &:hover {
+                    box-shadow: 2px 2px 2px #333;
+                }
+            }
+        }
+    }
+}

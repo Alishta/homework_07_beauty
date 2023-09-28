@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-size: 1rem;
+    background-color: #EFEFEF;
+  }
+  
+.header {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.menu {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav__item {
+    float: left;
+    margin-left: 13px;
+    padding: 17px;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+}
+
+.nav__link {
+    color: #333;
+    font-size: 0.875rem;
+}
+
+.sides {
+    width: 71%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.sides::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 20px 0;
+}
+
+.logo__name {
+    padding: 20px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F13C6E;
+}
+
+.logo-img img,
+.logo__name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.call {
+    float: right;
+    padding-top: 40px;
+}
+
+.call__link {
+    padding-right: 40px;
+    font-size: 0.9rem;
+    line-height: normal;
+    color: #000;
+}
+
+.btn {
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 12px 26px;
+    font-size: .875rem;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.call__btn {
+    background-color: #fff;
+    color: #F13C6E;
+}
+
+
+.nav--main-wrap {
+    background-color: #fff;
+    border-top: 1px solid #efefef;
+}
+
+.nav--main {
+    margin: 0 auto;
+    margin-left: 25%;
+}
+
+.nav--main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav--main .nav__item {
+    float: left;
+    padding: 30px 20px;
+}
+
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.cont-banner-text {
+    position: absolute;
+    transform: translate(0, -130%);
+    left: 14.5%;
+    width: 27%;
+}
+
+.banner__heading {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.banner-text {
+    color: #fff;
+    line-height: 20px;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 50px 0;
+}
+
+.card-btn {
+    background-color: #F13C6E;
+    color: #fff;
+}
+
+
+.offers {
+    display: inline-block;
+    background-color: #EFEFEF;
+    text-align: center;
+    width: 100%;
+    padding: 80px 0 100px 14.5%;
+}
+
+.offers:last-child {
+    margin-right: 0;
+}
+
+.offers__heading {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.goods__item {
+    float: left;
+    width: 20%;
+    margin: 38px 2.7% 50px 0;
+    padding: 34px 3%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.products {
+    color: #333;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.item-img {
+    width: 12vw;
+}
+
+.item__name {
+    flex-wrap: wrap;
+}
+
+.item__price {
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.05px;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.item__btn {
+    display: block;
+    text-align: center;
+    border-color: #F13C6E;
+    background-color: #F13C6E;
+    color: #fff;
+    padding: 9px 53px;
+}
+
+.card-container {
+    padding: 0 0 0 14.5%;
+}
+
+.card-body {
+    position: relative;
+    float: left;
+    width: 42.8%;
+    background-color: #F13C6E;
+    color: #fff;
+    margin-right: 2.5%;
+    padding: 35px 4.3% 35px 4%;
+}
+
+.text-container {
+    width: 50%;
+    float: left;
+}
+
+.card__title {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.card__text {
+    font-size: 0.875rem;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.text-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card__input {
+    border: none;
+    border-radius: 30px;
+    padding: 9px 9%;
+    font-size: .875rem;
+}
+
+.svg-container {
+    position: absolute;
+    float: right;
+    display: inline-table;
+    transform: translate(500px 100px);
+    
+}
+
+
+.card-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.block {
+    margin: 100px 15% 0;
+    width: 75%;
+    background-color: #fff;
+} 
+
+.block__item {
+    float: left;
+    width: 25%;
+    padding: 35px 3%;
+    border-bottom: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    text-align: center;
+}
+
+.block__img {
+    width: 10vw;
+    min-width: 10vw;
+}
+
+.block::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #fff;
+    padding-left: 14.5%;
+}
+
+.categories {
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.categories__block {
+    float: left;
+    width: 23%;
+    padding-right: 30px;
+}
+
+.categories__heading {
+    padding-bottom: 30px;
+    font-weight: 700;
+    line-height: 22.5px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.categories__nav {
+    padding-top: 25px;
+}
+
+.categories__item {
+    line-height: 28px;
+}
+.categories__link {
+    color: #828282;
+    line-height: 28px;
+    font-size: 0.75px;
+}
+
+.categories__link:hover {
+    text-decoration: underline;
+}
+
+.categories::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.social {
+    padding: 0 0 38px 0;
+    width: 80%;
+    border-top: 1px solid #EFEFEF;
+    vertical-align: middle;
+}
+
+
+.social__item {
+    padding-top: 37px;
+    float: left;
+    margin-right: 1%;
+}
+
+.social::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer-add {
+    background-color: #EFEFEF;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.footer-add__item {
+    float: left;
+    margin: 25px 0;
+}
+
+.privacy {
+    float: right;
+    margin: 25px 0;
+}
+
+.copy {
+    font-size: 0.75px;
+    color: #828282;
+}

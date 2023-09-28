@@ -1,0 +1,54 @@
+.offers {
+    padding: 80px 14.5% 100px;
+}
+
+.offers>h3 {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.goods {
+    gap: 3%;
+
+    .goods__item {
+        @include flex(column, center, center);
+        gap: 20px;
+        padding: 25px;
+        background-color: $main-color;
+        max-width: 225px;
+
+        .item-img {
+            width: 12vw;
+        }
+
+        .products {
+            color: #333;
+            text-align: center;
+            font-size: .9rem;
+        }
+
+        .item__price {
+            color: #000;
+            text-align: center;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.05px;
+        }
+        
+        .item__btn {
+            border-color: $accent-color;
+            background-color: $accent-color;
+            color: $main-color;
+            padding: 9px 53px;
+            text-transform: capitalize;
+
+            &:hover {
+                box-shadow: 2px 2px 2px #333;
+            }
+        }
+    }
+}
