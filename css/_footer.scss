@@ -1,15 +1,17 @@
 .footer {
-    width: 100%;
     background-color: $main-color;
     
     .categories {
         @include flex(row, space-between, flex-start);
-        margin-bottom: 60px;
-        padding: 80px 15% 0 15%;
+        width: 71%;
+        margin: 0 auto;
+        padding: 80px 0 60px;
+        gap: 3%;
 
         .categories__block {
-            @include flex(column, space-between, flex-start);
+            @include flex(column, center, center);
             gap: 30px;
+            padding-right: 10.5%;
 
             .categories__heading {
                 width: 100%;
@@ -19,13 +21,20 @@
                 border-bottom: 1px solid $primary-color;
             }
 
-            .categories__link {
-                color: $additional-color;
-                line-height: 28px;
-                font-size: 0.75px;
+            .categories__nav {
+                width: 100%;
                 
-                &:hover {
-                    text-decoration: underline;
+                .categories__item {
+                    width: 100%;
+                }
+
+                .categories__link {
+                    color: $additional-color;
+                    line-height: 28px;
+                    font-size: 0.75px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }  
@@ -45,19 +54,19 @@
 
     .call {
         gap: 40px;
-    }
-    .call__link {
-        font-size: 0.9rem;
-        line-height: normal;
-        color: $special-color;
-    }
-    
-    .call__btn {
-        border-color:  $accent-color;
-        background-color: $main-color;
-
-        &:hover {
-            box-shadow: 2px 2px 2px $dark-color;
+        .call__link {
+            font-size: 0.9rem;
+            line-height: normal;
+            color: $special-color;
+        }
+        
+        .call__btn {
+            border-color:  $accent-color;
+            background-color: $main-color;
+            
+            &:hover {
+                box-shadow: 2px 2px 2px $dark-color;
+            }
         }
     }
 

@@ -146,7 +146,9 @@ img.banner {
 }
 
 .offers {
-  padding: 80px 14.5% 100px;
+  width: 71%;
+  margin: 0 auto;
+  padding: 80px 0 100px;
 }
 
 .offers > h3 {
@@ -157,24 +159,29 @@ img.banner {
 }
 
 .goods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   gap: 3%;
 }
 .goods .goods__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   padding: 25px;
   background-color: #FFF;
-  max-width: 225px;
 }
 .goods .goods__item .item-img {
-  width: 12vw;
+  width: 100%;
+}
+.goods .goods__item .item__name {
+  text-align: center;
 }
 .goods .goods__item .products {
   color: #333;
-  text-align: center;
   font-size: 0.9rem;
 }
 .goods .goods__item .products:hover {
@@ -193,7 +200,7 @@ img.banner {
   border-color: #F13C6E;
   background-color: #F13C6E;
   color: #FFF;
-  padding: 9px 53px;
+  padding: 9px 30%;
   text-transform: capitalize;
 }
 .goods .goods__item .item__btn:hover {
@@ -203,7 +210,8 @@ img.banner {
 }
 
 .card-container {
-  padding: 0 14.5%;
+  width: 71%;
+  padding: 0 0 100px;
   margin: 0 auto;
 }
 .card-container .card {
@@ -213,7 +221,7 @@ img.banner {
 .card-container .card .card-body {
   display: flex;
   background-color: #F13C6E;
-  width: 78%;
+  width: 100%;
   padding: 35px 4.3% 35px 4%;
 }
 .card-container .card .card-body .text-container {
@@ -262,7 +270,8 @@ img.banner {
 
 .block {
   display: flex;
-  margin: 100px 14.5% 0;
+  width: 71%;
+  margin: 0 auto;
   background-color: #FFF;
 }
 .block .block__list {
@@ -288,7 +297,6 @@ img.banner {
 }
 
 .footer {
-  width: 100%;
   background-color: #FFF;
 }
 .footer .categories {
@@ -296,15 +304,18 @@ img.banner {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 60px;
-  padding: 80px 15% 0 15%;
+  width: 71%;
+  margin: 0 auto;
+  padding: 80px 0 60px;
+  gap: 3%;
 }
 .footer .categories .categories__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  padding-right: 10.5%;
 }
 .footer .categories .categories__block .categories__heading {
   width: 100%;
@@ -313,12 +324,18 @@ img.banner {
   padding-bottom: 30px;
   border-bottom: 1px solid #EFEFEF;
 }
-.footer .categories .categories__block .categories__link {
+.footer .categories .categories__block .categories__nav {
+  width: 100%;
+}
+.footer .categories .categories__block .categories__nav .categories__item {
+  width: 100%;
+}
+.footer .categories .categories__block .categories__nav .categories__link {
   color: #828282;
   line-height: 28px;
   font-size: 0.75px;
 }
-.footer .categories .categories__block .categories__link:hover {
+.footer .categories .categories__block .categories__nav .categories__link:hover {
   text-decoration: underline;
 }
 .footer .social {
@@ -337,16 +354,16 @@ img.banner {
 .footer .call {
   gap: 40px;
 }
-.footer .call__link {
+.footer .call .call__link {
   font-size: 0.9rem;
   line-height: normal;
   color: #000;
 }
-.footer .call__btn {
+.footer .call .call__btn {
   border-color: #F13C6E;
   background-color: #FFF;
 }
-.footer .call__btn:hover {
+.footer .call .call__btn:hover {
   box-shadow: 2px 2px 2px #333;
 }
 .footer .footer-add {

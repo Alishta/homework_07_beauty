@@ -1,5 +1,7 @@
 .offers {
-    padding: 80px 14.5% 100px;
+    width: 71%;
+    margin: 0 auto;
+    padding: 80px 0 100px;
 }
 
 .offers>h3 {
@@ -10,22 +12,24 @@
 }
 
 .goods {
+    @include flex(row, space-between, center);
     gap: 3%;
+    // width: 100%;
 
     .goods__item {
-        @include flex(column, center, center);
+        @include flex(column, space-between, center);
         gap: 20px;
         padding: 25px;
         background-color: $main-color;
-        max-width: 225px;
 
         .item-img {
-            width: 12vw;
+            width: 100%;
         }
-
+        .item__name {
+            text-align: center;
+        }
         .products {
             color: $dark-color;
-            text-align: center;
             font-size: .9rem;
             &:hover {
                 text-decoration: underline;
@@ -46,7 +50,7 @@
             border-color: $accent-color;
             background-color: $accent-color;
             color: $main-color;
-            padding: 9px 53px;
+            padding: 9px 30%;
             text-transform: capitalize;
 
             &:hover {
