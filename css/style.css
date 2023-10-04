@@ -177,6 +177,9 @@ img.banner {
   text-align: center;
   font-size: 0.9rem;
 }
+.goods .goods__item .products:hover {
+  text-decoration: underline;
+}
 .goods .goods__item .item__price {
   color: #000;
   text-align: center;
@@ -194,11 +197,14 @@ img.banner {
   text-transform: capitalize;
 }
 .goods .goods__item .item__btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
   box-shadow: 2px 2px 2px #333;
 }
 
 .card-container {
   padding: 0 14.5%;
+  margin: 0 auto;
 }
 .card-container .card {
   display: flex;
@@ -207,6 +213,7 @@ img.banner {
 .card-container .card .card-body {
   display: flex;
   background-color: #F13C6E;
+  width: 78%;
   padding: 35px 4.3% 35px 4%;
 }
 .card-container .card .card-body .text-container {

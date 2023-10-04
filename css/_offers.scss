@@ -27,6 +27,9 @@
             color: #333;
             text-align: center;
             font-size: .9rem;
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         .item__price {
@@ -47,6 +50,8 @@
             text-transform: capitalize;
 
             &:hover {
+                cursor: pointer;
+                text-decoration: underline;
                 box-shadow: 2px 2px 2px #333;
             }
         }

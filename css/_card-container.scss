@@ -1,13 +1,15 @@
 .card-container {
     padding: 0 14.5%;
+    margin: 0 auto;
 
     .card {
         display: flex;
         gap: 3%;
-
+        
         .card-body {
             display: flex;
             background-color: $accent-color;
+            width: 78%;
             padding: 35px 4.3% 35px 4%;
             
             .text-container {
@@ -34,7 +36,6 @@
                         padding: 9px 9%;
                         font-size: .875rem;
                     }
-
                 }
                 
                 .svg-container {
