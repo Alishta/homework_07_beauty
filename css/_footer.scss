@@ -3,16 +3,12 @@
     background-color: $main-color;
     
     .categories {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include flex(row, space-between, flex-start);
         margin-bottom: 60px;
         padding: 80px 15% 0 15%;
 
         .categories__block {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex(column, space-between, flex-start);
             gap: 30px;
 
             .categories__heading {
@@ -20,11 +16,11 @@
                 font-weight: 700;
                 line-height: 22.5px;
                 padding-bottom: 30px;
-                border-bottom: 1px solid #efefef;
+                border-bottom: 1px solid $primary-color;
             }
 
             .categories__link {
-                color: #828282;
+                color: $additional-color;
                 line-height: 28px;
                 font-size: 0.75px;
                 
@@ -39,12 +35,10 @@
         display: flex;
         justify-content: space-between;
         padding: 37px 15%;
-        border-top: 1px solid #efefef;
+        border-top: 1px solid $primary-color;
 
         .social__nav {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            @include flex(row, space-between, center);
             gap: 10%;
         }
     }
@@ -55,7 +49,7 @@
     .call__link {
         font-size: 0.9rem;
         line-height: normal;
-        color: #000;
+        color: $special-color;
     }
     
     .call__btn {
@@ -63,20 +57,18 @@
         background-color: $main-color;
 
         &:hover {
-            box-shadow: 2px 2px 2px #333;
+            box-shadow: 2px 2px 2px $dark-color;
         }
     }
 
     .footer-add {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex(row, space-between, center);
         padding: 25px 15%;
-        background-color: #efefef;
+        background-color: $primary-color;
 
         .copy {
             font-size: 0.75px;
-            color: #828282;
+            color: $additional-color;
         }
     }
 }

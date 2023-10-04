@@ -220,6 +220,7 @@ img.banner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 25px;
 }
 .card-container .card .card-body .text-container .card__title {
@@ -241,6 +242,7 @@ img.banner {
 .card-container .card .card-body .svg-container {
   width: 50%;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
@@ -261,22 +263,24 @@ img.banner {
 .block {
   display: flex;
   margin: 100px 14.5% 0;
-  background-color: #fff;
+  background-color: #FFF;
 }
 .block .block__list {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
 .block .block__list .block__item {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 25%;
   padding: 35px 3%;
-  border-bottom: 1px solid #efefef;
-  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #EFEFEF;
+  border-right: 1px solid #EFEFEF;
 }
 .block .block__list .block__item .block__img {
   width: 10vw;
@@ -291,6 +295,7 @@ img.banner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 60px;
   padding: 80px 15% 0 15%;
 }
@@ -298,6 +303,7 @@ img.banner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 30px;
 }
 .footer .categories .categories__block .categories__heading {
@@ -305,7 +311,7 @@ img.banner {
   font-weight: 700;
   line-height: 22.5px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #EFEFEF;
 }
 .footer .categories .categories__block .categories__link {
   color: #828282;
@@ -319,11 +325,12 @@ img.banner {
   display: flex;
   justify-content: space-between;
   padding: 37px 15%;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #EFEFEF;
 }
 .footer .social .social__nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   gap: 10%;
 }
@@ -344,10 +351,11 @@ img.banner {
 }
 .footer .footer-add {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 25px 15%;
-  background-color: #efefef;
+  background-color: #EFEFEF;
 }
 .footer .footer-add .copy {
   font-size: 0.75px;

@@ -29,7 +29,7 @@ img.banner {
         background-color: $accent-color;
 
         &:hover {
-            box-shadow: 2px 2px 2px #333;
+            box-shadow: 2px 2px 2px $dark-color;
         }
     }
 }

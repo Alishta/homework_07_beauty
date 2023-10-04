@@ -1,22 +1,18 @@
 .block {
     display: flex;
     margin: 100px 14.5% 0;
-    background-color: #fff;
+    background-color: $main-color;
 
     .block__list {
-        display: flex;
+        @include flex(row, space-around, center);
         flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
         
         .block__item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(row, center, center);
             width: 25%;
             padding: 35px 3%;
-            border-bottom: 1px solid #efefef;
-            border-right: 1px solid #efefef;
+            border-bottom: 1px solid $primary-color;
+            border-right: 1px solid $primary-color;
 
             .block__img {
                 width: 10vw;

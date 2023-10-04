@@ -13,9 +13,7 @@
             padding: 35px 4.3% 35px 4%;
             
             .text-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                @include flex(column, space-between, flex-start);
                 gap: 25px;
                 
                     .card__title {
@@ -40,9 +38,7 @@
                 
                 .svg-container {
                     width: 50%;
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: center;
+                    @include flex(row, flex-end, center);
 
                     .svg-container__img {
                         width: 80%;
@@ -58,7 +54,7 @@
                 font-size: .875rem;
 
                 &:hover {
-                    box-shadow: 2px 2px 2px #333;
+                    box-shadow: 2px 2px 2px $dark-color;
                 }
             }
         }

@@ -3,7 +3,7 @@
 }
 
 .offers>h3 {
-    color: #000;
+    color: $special-color;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 40px;
@@ -24,7 +24,7 @@
         }
 
         .products {
-            color: #333;
+            color: $dark-color;
             text-align: center;
             font-size: .9rem;
             &:hover {
@@ -33,7 +33,7 @@
         }
 
         .item__price {
-            color: #000;
+            color: $special-color;
             text-align: center;
             font-size: 21px;
             font-style: normal;
@@ -52,7 +52,7 @@
             &:hover {
                 cursor: pointer;
                 text-decoration: underline;
-                box-shadow: 2px 2px 2px #333;
+                box-shadow: 2px 2px 2px $dark-color;
             }
         }
     }
