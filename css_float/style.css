@@ -258,7 +258,7 @@
 }
 
 .card-body {
-    /* position: relative; */
+    position: relative;
     float: left;
     height: 100%;
     width: 48.6%;
@@ -272,7 +272,7 @@
 }
 
 .text-container {
-    width: 60%; 
+    width: 55%; 
     float: left;
  } 
 
@@ -303,16 +303,25 @@
 } 
 
  .svg-container {
-    /* position: absolute; */
-    float: right;
-    /* display: inline-table; */
-    /* transform: translate(500px 100px); */
+    position: absolute;
+    width: 45%;
+    transform: translate(130%, 0);
 } 
+
+.svg-container--mod {
+    transform: translate(110%, 20px);
+}
+
+.svg-container__img {
+    width: 55%;
+}
+.svg-container__img--mod {
+    width: 75%;
+}
 
 .card-btn {
     padding: 7px 9%;
     font-size: .875rem;
-    /* box-sizing: border-box; */
 }
 
 .card-container::after {
