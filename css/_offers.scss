@@ -14,7 +14,6 @@
 .goods {
     @include flex(row, space-between, center);
     gap: 3%;
-    // width: 100%;
 
     .goods__item {
         @include flex(column, space-between, center);
