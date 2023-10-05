@@ -215,6 +215,10 @@
     font-size: .9rem;
 }
 
+.products:hover {
+    text-decoration: underline;
+}
+
 .item-img {
     width: 12vw;
 }
