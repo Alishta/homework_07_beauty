@@ -1,6 +1,6 @@
 .footer {
     background-color: $main-color;
-    
+    //set the width and location of categories
     .categories {
         @include flex(row, space-between, flex-start);
         width: 71%;
@@ -10,6 +10,7 @@
 
         .categories__block {
             @include flex(column, center, center);
+            //set the interval
             gap: 30px;
             padding-right: 10.5%;
 

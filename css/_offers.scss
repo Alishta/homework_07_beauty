@@ -14,7 +14,7 @@
 .goods {
     @include flex(row, space-between, center);
     gap: 3%;
-
+    //set the vertical arrangement of elements, indents
     .goods__item {
         @include flex(column, space-between, center);
         gap: 20px;
@@ -38,10 +38,8 @@
         .item__price {
             color: $special-color;
             text-align: center;
-            font-size: 21px;
-            font-style: normal;
+            font-size: 1.3rem;
             font-weight: 500;
-            line-height: normal;
             letter-spacing: 1.05px;
         }
         
@@ -50,7 +48,6 @@
             background-color: $accent-color;
             color: $main-color;
             padding: 9px 30%;
-            text-transform: capitalize;
 
             &:hover {
                 cursor: pointer;

@@ -1,5 +1,5 @@
 // Header
-
+//setting colors
 .header {
     background-color: $main-color;
     .menu {
@@ -11,6 +11,7 @@
         gap: 1.5%;
     }
     
+    //setting spaces between navigation elements
     .nav__item {
         padding: 17px 1.5% 16px;
         
@@ -47,6 +48,7 @@
 // Sides
 
 .sides {
+    // position the logo and name
     @include flex(row, space-around, center);
     padding: 20px 0;
     background-color: $main-color;
@@ -71,7 +73,6 @@
         line-height: normal;
         color: $special-color;
     }
-    
     .call__btn {
         border-color:  $accent-color;
         background-color: $main-color;

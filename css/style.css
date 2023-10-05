@@ -112,14 +112,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-img.banner {
+.banner img.banner {
   width: 100%;
   position: relative;
   z-index: 1;
 }
-
-.cont-banner-text {
+.banner .cont-banner-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -130,20 +128,20 @@ img.banner {
   position: absolute;
   z-index: 2;
 }
-.cont-banner-text .banner-text {
+.banner .cont-banner-text .banner-text {
   width: 50%;
 }
-.cont-banner-text .banner__heading {
+.banner .cont-banner-text .banner__heading {
   font-size: 3rem;
   font-weight: 700;
   line-height: 56px;
   text-align: left;
 }
-.cont-banner-text .card-btn {
+.banner .cont-banner-text .card-btn {
   background-color: #F13C6E;
   padding: 9px 53px;
 }
-.cont-banner-text .card-btn:hover {
+.banner .cont-banner-text .card-btn:hover {
   box-shadow: 2px 2px 2px #333;
 }
 
@@ -192,10 +190,8 @@ img.banner {
 .goods .goods__item .item__price {
   color: #000;
   text-align: center;
-  font-size: 21px;
-  font-style: normal;
+  font-size: 1.3rem;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 1.05px;
 }
 .goods .goods__item .item__btn {
@@ -203,7 +199,6 @@ img.banner {
   background-color: #F13C6E;
   color: #FFF;
   padding: 9px 30%;
-  text-transform: capitalize;
 }
 .goods .goods__item .item__btn:hover {
   cursor: pointer;
@@ -213,7 +208,7 @@ img.banner {
 
 .card-container {
   width: 71%;
-  padding: 0 0 100px;
+  padding-bottom: 100px;
   margin: 0 auto;
 }
 .card-container .card {
@@ -222,8 +217,8 @@ img.banner {
 }
 .card-container .card .card-body {
   display: flex;
-  background-color: #F13C6E;
   width: 100%;
+  background-color: #F13C6E;
   padding: 35px 4.3% 35px 4%;
 }
 .card-container .card .card-body .text-container {
@@ -260,7 +255,7 @@ img.banner {
   width: 80%;
 }
 .card-container .card .card-body .svg-container .svg-container__img--mod {
-  width: 80%;
+  width: 90%;
 }
 .card-container .card .card-body .card-btn {
   background-color: #F13C6E;
