@@ -54,11 +54,13 @@
     }
 
     .call {
-        gap: 40px;
+        width: 25%;
+        gap: 20%;
         .call__link {
             font-size: 0.9rem;
             line-height: normal;
             color: $special-color;
+            white-space: nowrap;
         }
         
         .call__btn {

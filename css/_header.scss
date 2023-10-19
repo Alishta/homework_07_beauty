@@ -66,16 +66,18 @@
         
     }
     .call {
-        gap: 40px;
+        gap: 20%;
     }
     .call__link {
         font-size: 0.9rem;
         line-height: normal;
         color: $special-color;
+        white-space: nowrap;
     }
     .call__btn {
         border-color:  $accent-color;
         background-color: $main-color;
+        white-space: nowrap;
 
         &:hover {
             box-shadow: 2px 2px 2px $dark-color;

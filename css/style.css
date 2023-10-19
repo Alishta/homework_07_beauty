@@ -21,7 +21,7 @@ body {
 .btn {
   border: 2px solid;
   border-radius: 40px;
-  padding: 12px 26px;
+  padding: 12px 15%;
   font-size: 0.875rem;
 }
 
@@ -91,16 +91,18 @@ body {
   text-transform: uppercase;
 }
 .sides .call {
-  gap: 40px;
+  gap: 20%;
 }
 .sides .call__link {
   font-size: 0.9rem;
   line-height: normal;
   color: #000;
+  white-space: nowrap;
 }
 .sides .call__btn {
   border-color: #F13C6E;
   background-color: #FFF;
+  white-space: nowrap;
 }
 .sides .call__btn:hover {
   box-shadow: 2px 2px 2px #333;
@@ -139,7 +141,7 @@ body {
 }
 .banner .cont-banner-text .card-btn {
   background-color: #F13C6E;
-  padding: 9px 53px;
+  padding: 9px 13%;
 }
 .banner .cont-banner-text .card-btn:hover {
   box-shadow: 2px 2px 2px #333;
@@ -171,7 +173,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 25px;
+  padding: 25px 3%;
   background-color: #FFF;
 }
 .goods .goods__item .item-img {
@@ -350,12 +352,14 @@ body {
   gap: 10%;
 }
 .footer .call {
-  gap: 40px;
+  width: 25%;
+  gap: 20%;
 }
 .footer .call .call__link {
   font-size: 0.9rem;
   line-height: normal;
   color: #000;
+  white-space: nowrap;
 }
 .footer .call .call__btn {
   border-color: #F13C6E;

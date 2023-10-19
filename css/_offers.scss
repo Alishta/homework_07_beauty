@@ -18,7 +18,7 @@
     .goods__item {
         @include flex(column, space-between, center);
         gap: 20px;
-        padding: 25px;
+        padding: 25px 3%;
         background-color: $main-color;
 
         .item-img {
